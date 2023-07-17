@@ -5,3 +5,4 @@ class dataDump:
         fileObject = open(filePath, 'wb')
         pickle.dump(objectData, fileObject)
         fileObject.close()
+    
